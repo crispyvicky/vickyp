@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import paint from "../../Assets/Projects/paint.png";
 import leaf from "../../Assets/Projects/leaf.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import typing from "../../Assets/Projects/typing.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -32,12 +32,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={typing}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Typing Speed Test"
+              description="A typing speed test application built with React.js that allows users to test their typing speed and accuracy. The app provides a random text for users to type, measures the time taken, and calculates the typing speed in words per minute (WPM) along with accuracy percentage."
+              ghLink="https://github.com/crispyvicky/speedtyping"
+              demoLink="https://speedtyping.vercel.app/"
             />
           </Col>
 
@@ -70,7 +70,7 @@ function Projects() {
               isBlog={false}
               title="Plant AI"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              //ghLink="https://github.com/soumyajit4419/Plant_AI"
+              ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
