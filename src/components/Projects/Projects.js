@@ -6,7 +6,7 @@ import paint from "../../Assets/Projects/paint.png";
 import leaf from "../../Assets/Projects/leaf.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import typing from "../../Assets/Projects/typing.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import weather from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -29,6 +29,7 @@ function Projects() {
               ghLink="https://github.com/crispyvicky/paint-app.git"
               demoLink="https://paint-app-sigma.vercel.app/"
             />
+            
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -43,12 +44,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={weather}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="weather-app"
+              description="A weather application built with React.js that provides real-time weather information for any location. The app fetches data from a weather API and displays current weather conditions, temperature, humidity, wind speed, and a 5-day forecast."
+              ghLink="https://github.com/crispyvicky/weather"
+              demoLink="https://github.com/crispyvicky/weather"
             />
           </Col>
           
