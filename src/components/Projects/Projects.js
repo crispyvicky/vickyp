@@ -49,7 +49,7 @@ function Projects() {
               title="weather-app"
               description="A weather application built with React.js that provides real-time weather information for any location. The app fetches data from a weather API and displays current weather conditions, temperature, humidity, wind speed, and a 5-day forecast."
               ghLink="https://github.com/crispyvicky/weather"
-              demoLink="https://github.com/crispyvicky/weather"
+              demoLink="https://weather-vicky.vercel.app/"
             />
           </Col>
           
