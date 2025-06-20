@@ -6,7 +6,7 @@ import paint from "../../Assets/Projects/paint.png";
 import leaf from "../../Assets/Projects/leaf.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import typing from "../../Assets/Projects/typing.png";
-import weather from "../../Assets/Projects/blog.png";
+import weather from "../../Assets/Projects/weather.png";
 
 function Projects() {
   return (
